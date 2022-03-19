@@ -30,17 +30,17 @@ const movieDB = {
 };
 
 const promo = document.querySelector('.promo__adv'),
-      promoGenre = document.querySelector('.promo__genre'),
-      img = document.querySelector('.promo__bg'),
-      ul = document.querySelector('.promo__interactive-list'),
-      li = ul.querySelectorAll('.promo__interactive-item'),
-      form = document.querySelector('.add'),
-      inputField = form.querySelector('.adding__input'),
-      submitButton = form.querySelector('button');
+    promoGenre = document.querySelector('.promo__genre'),
+    img = document.querySelector('.promo__bg'),
+    ul = document.querySelector('.promo__interactive-list'),
+    li = ul.querySelectorAll('.promo__interactive-item'),
+    form = document.querySelector('.add'),
+    inputField = form.querySelector('.adding__input'),
+    submitButton = form.querySelector('button');
 
-      function getBin () {
-          return document.querySelectorAll('.delete');
-      }
+function getBin () {
+    return document.querySelectorAll('.delete');
+}
 
 const renderList = (items, listContainer) => {
     purgeList(ul)
